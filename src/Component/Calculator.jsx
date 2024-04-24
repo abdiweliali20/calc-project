@@ -36,15 +36,15 @@ function Calculator() {
       </div>
       <form>
         <div>
-          <h3>Value1</h3>
-          <input type="text" value={value1} onChange={(e) => setValue1(e.target.value)} />
-          <h3>Value2</h3>
+          <h3 className='text-2xl'>Value1</h3>
+          <input  type="text"  value={value1} onChange={(e) => setValue1(e.target.value)} />
+          <h3 className='text-2xl'>Value2</h3>
           <input type="text" value={value2} onChange={(e) => setValue2(e.target.value)} />
           <div>
-            <button className='B1' type="button" onClick={handleAddition}>+</button>
-            <button className='B1' type="button" onClick={handleSubtraction}>-</button>
-            <button className='B1' type="button" onClick={handleDivision}>/</button>
-            <button className='B1' type="button" onClick={handleMultiplication}>*</button>
+            <button className='text-green-600 border border-green-600 p-4' type="button" onClick={handleAddition}>+</button>
+            <button className='text-green-600 border border-green-600 p-4' type="button" onClick={handleSubtraction}>-</button>
+            <button className='text-green-600 border border-green-600 p-4' type="button" onClick={handleDivision}>/</button>
+            <button className='text-green-600 border border-green-600 p-4' type="button" onClick={handleMultiplication}>*</button>
           </div>
         </div>
       </form>
