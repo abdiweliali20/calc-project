@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.B1{
+  background-color: green
+}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
